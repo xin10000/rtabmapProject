@@ -1,0 +1,1 @@
+/usr/bin/c++    -fmessage-length=0 -O3 -DNDEBUG   CMakeFiles/res_tool.dir/main.cpp.o  -o ../../../bin/rtabmap-res_tool-0.3.0 -rdynamic ../../../bin/librtabmap_utilite.so.0.14.2 -lpthread -Wl,-rpath,/root/rtabmap-tango/bin: 

@@ -1,0 +1,31 @@
+# view res/layout/activity_rtabmap.xml #generated:20
+-keep class android.opengl.GLSurfaceView { <init>(...); }
+
+# view res/layout/activity_settings.xml #generated:189
+# view res/layout/activity_settings.xml #generated:197
+# view res/layout/activity_settings.xml #generated:202
+# view res/layout/activity_settings.xml #generated:207
+# view res/layout/activity_settings.xml #generated:212
+# view res/layout/activity_settings.xml #generated:274
+# view res/layout/activity_settings.xml #generated:301
+# view res/layout/activity_settings.xml #generated:331
+# view res/layout/activity_settings.xml #generated:61
+# view res/layout/activity_settings.xml #generated:66
+# view res/layout/activity_settings.xml #generated:82
+# view res/layout/activity_settings.xml #generated:87
+# view res/layout/activity_settings.xml #generated:92
+# view res/layout/activity_settings.xml #generated:97
+-keep class com.introlab.rtabmap.CustomSwitchPreference { <init>(...); }
+
+# view res/layout/activity_rtabmap.xml #generated:70
+-keep class com.introlab.rtabmap.NDSpinner { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.introlab.rtabmap.RTABMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.introlab.rtabmap.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.introlab.rtabmap.SketchfabActivity { <init>(...); }
+

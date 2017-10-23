@@ -1,0 +1,23 @@
+/root/rtabmap-tango/build/armeabi-v7a/app/android/gen/com/introlab/rtabmap/R.java \
+ : /root/rtabmap-tango/app/android/res/raw/info.txt \
+/root/rtabmap-tango/app/android/res/drawable-xhdpi/ic_launcher.png \
+/root/rtabmap-tango/app/android/res/values/strings.xml \
+/root/rtabmap-tango/app/android/res/values/arrays.xml \
+/root/rtabmap-tango/app/android/res/values/styles.xml \
+/root/rtabmap-tango/app/android/res/values/dimens.xml \
+/root/rtabmap-tango/app/android/res/drawable-xxhdpi/ic_launcher.png \
+/root/rtabmap-tango/app/android/res/drawable/custom_seekbar.xml \
+/root/rtabmap-tango/app/android/res/menu/optionmenu.xml \
+/root/rtabmap-tango/app/android/res/layout/activity_settings.xml \
+/root/rtabmap-tango/app/android/res/layout/about.xml \
+/root/rtabmap-tango/app/android/res/layout/activity_sketchfab.xml \
+/root/rtabmap-tango/app/android/res/layout/auth_dialog.xml \
+/root/rtabmap-tango/app/android/res/layout/database_list.xml \
+/root/rtabmap-tango/app/android/res/layout/activity_rtabmap.xml \
+/root/rtabmap-tango/app/android/res/drawable-mdpi/ic_launcher.png \
+/root/rtabmap-tango/app/android/res/drawable-hdpi/ic_launcher.png \
+/root/rtabmap-tango/build/armeabi-v7a/app/android/bin/res/drawable-xhdpi/ic_launcher.png \
+/root/rtabmap-tango/build/armeabi-v7a/app/android/bin/res/drawable-xxhdpi/ic_launcher.png \
+/root/rtabmap-tango/build/armeabi-v7a/app/android/bin/res/drawable-mdpi/ic_launcher.png \
+/root/rtabmap-tango/build/armeabi-v7a/app/android/bin/res/drawable-hdpi/ic_launcher.png \
+/root/rtabmap-tango/build/armeabi-v7a/app/android/bin/AndroidManifest.xml \

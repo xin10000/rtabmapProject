@@ -1,0 +1,122 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Linux - 4.4.0-93-generic - x86_64
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c742/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c742.dir/build.make CMakeFiles/cmTC_5c742.dir/build
+make[1]: Entering directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c742.dir/CheckIncludeFile.c.o
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /opt/android-ndk-r14/platforms/android-19/arch-arm/usr/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -fPIE   -o CMakeFiles/cmTC_5c742.dir/CheckIncludeFile.c.o   -c /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5c742
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c742.dir/link.txt --verbose=1
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_5c742.dir/CheckIncludeFile.c.o -o cmTC_5c742  -L/libs/armeabi-v7a   "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9cba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9cba.dir/build.make CMakeFiles/cmTC_f9cba.dir/build
+make[1]: Entering directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9cba.dir/CheckSymbolExists.c.o
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /opt/android-ndk-r14/platforms/android-19/arch-arm/usr/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -fPIE   -o CMakeFiles/cmTC_f9cba.dir/CheckSymbolExists.c.o   -c /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f9cba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9cba.dir/link.txt --verbose=1
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_f9cba.dir/CheckSymbolExists.c.o -o cmTC_f9cba  -L/libs/armeabi-v7a   "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+
+File /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3c83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3c83.dir/build.make CMakeFiles/cmTC_b3c83.dir/build
+make[1]: Entering directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3c83.dir/src.c.o
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -isystem /opt/android-ndk-r14/platforms/android-19/arch-arm/usr/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE   -o CMakeFiles/cmTC_b3c83.dir/src.c.o   -c /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b3c83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c83.dir/link.txt --verbose=1
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  -fexceptions -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_b3c83.dir/src.c.o -o cmTC_b3c83  -L/libs/armeabi-v7a   "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+make[1]: Leaving directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4d76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4d76.dir/build.make CMakeFiles/cmTC_b4d76.dir/build
+make[1]: Entering directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b4d76.dir/src.cxx.o
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -isystem /opt/android-ndk-r14/platforms/android-19/arch-arm/usr/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE   -o CMakeFiles/cmTC_b4d76.dir/src.cxx.o -c /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b4d76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4d76.dir/link.txt --verbose=1
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_b4d76.dir/src.cxx.o -o cmTC_b4d76  -L/libs/armeabi-v7a   "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]: Leaving directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1257f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1257f.dir/build.make CMakeFiles/cmTC_1257f.dir/build
+make[1]: Entering directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1257f.dir/src.cxx.o
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -isystem /opt/android-ndk-r14/platforms/android-19/arch-arm/usr/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -fopenmp -DCOMPILER_SUPPORTS_CXX11 -fPIE   -std=c++11 -o CMakeFiles/cmTC_1257f.dir/src.cxx.o -c /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1257f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1257f.dir/link.txt --verbose=1
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -fopenmp -DCOMPILER_SUPPORTS_CXX11   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_1257f.dir/src.cxx.o -o cmTC_1257f  -L/libs/armeabi-v7a   "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]: Leaving directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca286/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca286.dir/build.make CMakeFiles/cmTC_ca286.dir/build
+make[1]: Entering directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ca286.dir/src.cxx.o
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -isystem /opt/android-ndk-r14/platforms/android-19/arch-arm/usr/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -frtti -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -fopenmp -DCOMPILER_SUPPORTS_CXX0X -fPIE   -std=c++0x -o CMakeFiles/cmTC_ca286.dir/src.cxx.o -c /root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ca286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca286.dir/link.txt --verbose=1
+/opt/android-ndk-r14/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/opt/android-ndk-r14/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack  -fmessage-length=0  -fopenmp -DCOMPILER_SUPPORTS_CXX0X   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_ca286.dir/src.cxx.o -o cmTC_ca286  -L/libs/armeabi-v7a   "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/opt/android-ndk-r14/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]: Leaving directory '/root/rtabmap-tango/build/armeabi-v7a/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
